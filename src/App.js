@@ -7,6 +7,11 @@ function App() {
     <div className="App">
     <h1>Hello World!!!</h1>
     <p>It is awesome=)</p>
+    <ul>
+      <li>one</li>
+      <li>two</li>
+      <li>three</li>
+    </ul>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
 
