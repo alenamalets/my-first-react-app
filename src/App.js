@@ -4,6 +4,8 @@ import './App.css';
 import Title from './components/Title'
 import LightSwitch from './components/LightSwitch'
 import UserBoard from './components/UserBoard'
+import Clock from './components/Clock'
+
 
 class App extends Component{
   render () {
@@ -12,6 +14,7 @@ class App extends Component{
         <Title content="Some Simple Title" />
         <LightSwitch />
         <UserBoard />
+        <Clock />
       </main>
 
   
