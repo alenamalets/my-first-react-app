@@ -1,34 +1,22 @@
-import React from 'react';
+import React, { Component }  from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Title from './components/Title'
+import LightSwitch from './components/LightSwitch'
+import UserBoard from './components/UserBoard'
 
-function App() {
-  return (
-    <div className="App">
-    <h1>Hello World!!!</h1>
-    <p>It is awesome=)</p>
-    <ul>
-      <li>one</li>
-      <li>two</li>
-      <li>three</li>
-    </ul>
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+class App extends Component{
+  render () {
+    return (
+      <main>
+        <Title content="Some Simple Title" />
+        <LightSwitch />
+        <UserBoard />
+      </main>
 
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-    </div>
-  );
+  
+    )
+  }
 }
 
 export default App;
